@@ -61,7 +61,6 @@ def b(path,sep):
     e1=list(G.edges())
     for kk in e1:
         G1.add_edge(r1.index(kk[0]),r1.index(kk[1]))
-    %fich = open("C:/Users/khawla/Documents/networks/Condnew.txt", "w")
     for k in list(G1.edges()):
         fich.write(str(k[0]))
         fich.write(',')
