@@ -304,9 +304,7 @@ def b(path,sep):
     print(len(res))
     tsp2= time.time()
     print('time',tsp2-tsp1)
-    fichier = open("C:/Users/khawla/Documents/networks/ourcom1ama.txt", "w")
-    #fichier = open("C:/Users/loutfi/Desktop/networks/ourcomtt1.txt", "w")
-    #fichier = open("C:/Users/ASMI/Documents/networks/ourcomtt1.txt", "w")
+    fichier = open("res.txt", "w")
     for res1 in res:
         for k in res1:
             fichier.write(str(k))
